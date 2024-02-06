@@ -45,7 +45,6 @@ function App() {
     }
 
     setHomes(homes);
-    console.log(homes);
     const escrow = new ethers.Contract(
       config[network.chainId].escrow.address,
       Escrow,
